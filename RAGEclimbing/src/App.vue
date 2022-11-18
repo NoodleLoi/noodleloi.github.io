@@ -6,21 +6,17 @@ import FrontPage from './components/FrontPage.vue'
 <template>
 
   <main>
-    <NavBar/>
-    <div class="background">
-      <img src='./assets/Paddle.JPEG'>
-    </div>
-    <div>
-      <h3>Hello World!</h3>
-    </div>
+    <body>
+      <NavBar/>
+      <div>
+        <h3>Hello World!</h3>
+      </div>
+    </body>
   </main>
 
 
 </template>
 
 <style>
-  .background img{
-    width: 100px;
-    
-  }
+  
 </style>
